@@ -15,13 +15,9 @@ A new fillable form has been added. Under the Role Analysis folder there is a Ro
 4) Uncomment the final line
 
 :: Optional ::
-You can also change what is being looked at by changing the 'gdat10' and 'gdat15' in the following lines:
+You can also change what is being looked at by changing the 'Var1' and 'Var2' at all instances you see them. 
 
-temp_sort = Role_stats_avg.sort_values(by = 'gdat15')
-gdat10 = list(temp_sort['gdat10'].values)
-gdat15 = list(temp_sort['gdat15'].values)
-
-To whatever value you want to comapre. The list of comparable options is found at: http://oracleselixir.com/match-data/match-data-dictionary/
+The list of comparable options is found at: http://oracleselixir.com/match-data/match-data-dictionary/
 
 ::: EDIT :::
 
